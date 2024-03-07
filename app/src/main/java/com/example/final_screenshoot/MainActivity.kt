@@ -50,7 +50,7 @@ fun FinalScreenshotApp() {
 }
 
 @Composable
-fun FinalScreenShot(image: Painter, textCompleted: String, textCongratulations: String, modifier: Modifier = Modifier){
+fun FinalScreenShot(image: Painter, textCompleted: String, textCongratulations: String){
     Column(modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
